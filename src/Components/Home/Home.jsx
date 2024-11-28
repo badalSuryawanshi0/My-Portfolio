@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Palette, Terminal, Cpu, Coffee, Music, UtensilsCrossed, Database } from 'lucide-react';
+import { Code,  Terminal,  Music, UtensilsCrossed, Database,Github } from 'lucide-react';
 import { AnimatedText } from './AnimatedText';
 import { SkillBadge } from './SkillBadge';
 import { ProjectCard } from './ProjectCad';
@@ -31,10 +31,10 @@ function Home() {
           </div>
 
           <div className="flex flex-wrap justify-center gap-4 animate-fade-in-up delay-200">
-            <SkillBadge icon={Code} label="Web Development" />
-            
+            <SkillBadge icon={Code} label="Frontend" />
             <SkillBadge icon={Terminal} label="Backend" />
             <SkillBadge icon={Database} label="Database" />
+            <SkillBadge icon={Github} label="Git" />
           </div>
         </div>
 
@@ -46,15 +46,15 @@ function Home() {
           
           <div className="grid md:grid-cols-2 gap-8">
             <ProjectCard
-              title="AI Image Generator"
-              description="A deep learning project that generates artistic images from text descriptions."
+              title="Building will soon upload"
+              description=""
               imageUrl="https://images.unsplash.com/photo-1547954575-855750c57bd3?w=800&h=500&fit=crop"
               link="#"
             />
             <ProjectCard
-              title="Smart Home Dashboard"
-              description="IoT dashboard for monitoring and controlling smart home devices."
-              imageUrl="https://images.unsplash.com/photo-1558002038-1055907df827?w=800&h=500&fit=crop"
+              title="Building will soon upload"
+              description=""
+              imageUrl="https://images.unsplash.com/photo-1547954575-855750c57bd3?w=800&h=500&fit=crop"
               link="#"
             />
           </div>
